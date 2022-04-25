@@ -1,0 +1,101 @@
+:root{
+    --colorPattern: rgb(83, 26, 68);
+    --TwocolorPattern: rgb(124, 49, 88);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('https://dynamicwallpaper.club/landing-vids/1.png');
+}
+
+#container, #allInputs{
+    display: flex;
+    justify-content: center;
+}
+
+#whiteBox{
+    border-radius: 5px;
+    width: 50%;
+    background-color: white;
+    margin: 4% 0;
+    box-shadow: 0 5px 20px 10px rgba(83, 26, 68, 0.709);
+}
+
+h1, h2{
+    color: var(--colorPattern)
+}
+
+h2{
+    padding: 10px 0;
+}
+#secoes{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+ul, li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+h1{
+    padding: 10px;
+    font-size: 30px;
+}
+
+article{
+    padding: 5px;
+    margin: 0 auto;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(221, 217, 217);
+    border-radius: 5px;
+}
+
+input:hover{
+    border-color: rgb(124, 49, 88);
+}
+
+button{
+    width: 100%;
+    background-color: var(--TwocolorPattern);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(85, 34, 60);
+}
+
+.avisos-error{
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+    background-color: rgba(209, 37, 37, 0.932);
+    font-weight: 700;
+    color: white;
+}
+.avisos-true{
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+    background-color: rgba(3, 246, 197, 0.565);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
